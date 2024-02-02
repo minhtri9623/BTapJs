@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dbcfcf;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main {
+    background-color: #f1f1f1;
+    min-height: 100vh;
+   display: flex;
+   justify-content: center;
+}
+
+.form {
+    width: 360px;
+    min-height: 100px;
+    background-color: #fff;
+    padding: 32px 24px;
+    margin: 24px;
+    box-shadow: 0 0 4px 4px #ccc;
+    border-radius: 20px;
+    align-self: center;
+    text-align: center;
+
+}
+
+.form .heading {
+    font-size: 20px;
+}
+
+.form .desc {
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 24px;
+    margin-top: 16px;
+    font-weight: 300;
+    color: #636d77;
+    /* margin-bottom: 14px; */
+}
+
+.form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.form-lable, .form-massage {
+    text-align: left;
+}
+
+
+
+.form-lable {
+    font-size: 16px;
+    font-weight: 24px;
+    padding-bottom: 6px;
+    line-height: 18px;
+}
+
+.form-control {
+    height: 30px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+.form-control:hover {
+    border-color: #1dbfaf;
+}
+
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-massage {
+    color: #f33a58;
+}
+
+
+.form-message {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+
+.form-submit {
+    padding: 12px 16px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    background-color: #1dbfaf;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.form-submit:hover {
+    background-color: #1ac7b6;
+}
+
+.spacer {
+  margin-top: 36px;
+}
+
+.form-massage {
+    margin-top: 5px;
+    font-size: 14px;
+}
